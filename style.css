@@ -1,7 +1,7 @@
 /* ============ 디자인 토큰 ============ */
 :root {
-  --accent: #f97316;
-  --accent2: #0ea5e9;
+  --accent: #00a8ff; 
+  --accent2: #9c88ff;
   --ink: #1a1a2e;
   --muted: #64748b;
   --bg: #fafafa;
@@ -111,7 +111,7 @@ body {
 }
 .btn-primary:hover:not([aria-disabled="true"]) {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(249, 115, 22, 0.35);
+  box-shadow: 0 6px 16px rgba(0, 168, 255, 0.35); 
 }
 .btn-secondary {
   background: var(--card);
@@ -196,8 +196,8 @@ section p {
   margin-right: 0.5rem;
 }
 .content zero-md code {
-  background: rgba(14, 165, 233, 0.1);
-  color: var(--accent2);
+  background: rgba(0, 168, 255, 0.1);
+  color: var(--accent);
   padding: 0.15em 0.4em;
   border-radius: 4px;
   font-family: Menlo, Monaco, 'Courier New', monospace;
@@ -219,19 +219,21 @@ section p {
   background: transparent;
 }
 .content zero-md th {
-  background: rgba(249, 115, 22, 0.08);
+  background: rgba(0, 168, 255, 0.08);
   font-weight: 600;
 }
 .content zero-md hr {
   border: none;
-  height: 0;
+  height: 1px;
+  background: var(--border);
   margin: 2rem 0;
 }
 .content zero-md blockquote {
-  border-left: 3px solid var(--accent2);
+  border-left: 3px solid var(--accent);
   margin: 0.8rem 0;
   padding: 0.4rem 1rem;
   color: var(--muted);
+  background: rgba(0, 168, 255, 0.03);
 }
 .content zero-md strong {
   color: var(--ink);
@@ -260,7 +262,7 @@ footer p {
   margin: 0;
 }
 footer a {
-  color: var(--accent2);
+  color: var(--accent);
   text-decoration: none;
 }
 footer a:hover {
