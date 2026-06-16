@@ -8,7 +8,7 @@ AI 전문 동료들과 협업하는 오피스 컨셉의 혁신적인 2D 게임 �
 
 아이디어만 있는 사용자가 회장이 되어 2D 오피스 환경에서 5대 전문 AI 부서원들과 협업하여 단 몇 분 만에 게임 프로토타입을 기획, 제작, 실행하는 인공지능 기반 개발 시뮬레이션 플랫폼
 
-<img width="1085" height="696" alt="image" src="https://github.com/user-attachments/assets/c92e08cd-05ef-405f-aa3c-4e219e191306" />
+<img width="1343" height="660" alt="image" src="https://github.com/user-attachments/assets/ac3c4a03-dfcc-47ed-9987-0227d2e1b3ab" />
 자신만의 캐릭터, 배경 제작도 웹 내부에서 가능!
 
 ---
